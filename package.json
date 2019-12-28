@@ -1,0 +1,16 @@
+{
+  "name": "nirog-gyan",
+  "version": "1.0.0",
+  "description": "Nirog Gyan NGO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "derek joseph",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
