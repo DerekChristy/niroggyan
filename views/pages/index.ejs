@@ -12,7 +12,7 @@
         <div class="centralize text-light">
           <div>
             <h1 class="h1 text-center m-3 lang-en" data-aos="zoom-in">
-              Nirog Gyan Org
+              Nirog Gyan Organization
             </h1>
             <h1 class="h1 text-center m-3 lang-hi d-none">
               निरोग ज्ञान आर्गनाइजेशन
@@ -31,7 +31,7 @@
       </div>
     </section>
 
-    <section id="p1" style="box-shadow: inset 0 3px 5px #333;">
+    <section id="vision" style="box-shadow: inset 0 3px 5px #333;">
       <div class="container" data-aos="fade-up">
         <h1
           class="text-center m-5 lang-en"
@@ -74,19 +74,44 @@
             data-aos="fade-up"
             data-aos-easing="ease"
             data-aos-delay="600"
-            class="d-block col-10 col-lg-7 mx-auto mt-2"
+            class="d-sm-none d-md-none d-lg-block col-10 col-lg-7 mx-auto mt-4"
             src="./images/full-logo.png"
           />
         </div>
       </div>
     </section>
 
-    <section>
+    <section id="mission">
+      <div class="cover">
+        <img src="images/carosel/5.png" />
+      </div>
+      <div class="content text-light">
+        <h1
+          class="text-center m-5 lang-en"
+          data-aos="fade-up"
+          data-aos-easing="ease"
+        >
+          Our Mission
+        </h1>
+        <div class="container">
+          To bring awareness in the society for the total wellness of mankind
+          through education and association with doctors, vaidyas , yoga experts
+          etc.
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
       <div class="cover">
         <img src="images/carosel/9.png" />
       </div>
       <div class="content">
-        <div class="text-light" data-aos="fade-up" data-aos-mirror="true">
+        <div
+          class="text-light"
+          style="position: absolute; top: 30%;"
+          data-aos="fade-up"
+          data-aos-mirror="true"
+        >
           <h1 class="text-center m-5 lang-en">About Us</h1>
           <h1 class="text-center m-5 lang-hi d-none">हमारे बारे में</h1>
           <div class="lead col-10 col-lg-8 mx-auto lang-en text-justify">
@@ -110,20 +135,23 @@
         </div>
       </div>
     </section>
-    <div class="container">
-      <div class="row my-2">
-        <div class="col text-center">
-          <img class="col-10 col-lg-3 m-2" src="./images/carosel/4.png" />
-          <img class="col-10 col-lg-3 m-2" src="./images/carosel/5.png" />
-          <img class="col-10 col-lg-3 m-2" src="./images/carosel/3.png" />
-          <img class="col-10 col-lg-3 m-2" src="./images/carosel/6.png" />
-          <img class="col-10 col-lg-3 m-2" src="./images/carosel/7.png" />
-          <img class="col-10 col-lg-3 m-2" src="./images/carosel/8.png" />
-          <img class="col-10 col-lg-3 m-2" src="./images/carosel/9.png" />
+    <div class="gallery">
+      <div class="container mt-5">
+        <div class="row my-4">
+          <div class="col text-center" data-aos="fade-up">
+            <img class="col-10 col-lg-3 m-2" src="./images/carosel/4.png" />
+            <img class="col-10 col-lg-3 m-2" src="./images/carosel/5.png" />
+            <img class="col-10 col-lg-3 m-2" src="./images/carosel/3.png" />
+            <img class="col-10 col-lg-3 m-2" src="./images/carosel/6.png" />
+            <img class="col-10 col-lg-3 m-2" src="./images/carosel/7.png" />
+            <img class="col-10 col-lg-3 m-2" src="./images/carosel/8.png" />
+            <img class="col-10 col-lg-3 m-2" src="./images/carosel/9.png" />
+          </div>
         </div>
       </div>
     </div>
 
-    <%- include('../partials/scripts'); -%>
+    <%- include('../partials/footer'); -%> <%- include('../partials/scripts');
+    -%>
   </body>
 </html>
