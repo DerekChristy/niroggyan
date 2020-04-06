@@ -153,22 +153,17 @@ section .content {
 }
 
 #objectives h1 {
-  border: 4px solid #004e92;
+  border: 4px solid #055554;
   display: inline-block;
   padding: 18px;
   border-radius: 8px;
   box-shadow: inset 0px 2px 14px #000;
-  background: #004682;
+  background: #055554;
   color: #eee;
 }
 
 #objectives .card {
-  background: #000428;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #004e92, #000428);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #004e92, #000428);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: linear-gradient( 109.6deg, #055554 11.2%, #00b3a1 91.1%);
   color: #eee;
   box-shadow: 0px 2px 12px #000;
   border-radius: 20px;
